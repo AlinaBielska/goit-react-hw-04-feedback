@@ -1,0 +1,32 @@
+.buttonsFeedback {
+    padding: 0;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.btn {
+    padding: 10px 15px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 6px;
+    border-color: black;
+    background-color: rgb(202, 215, 213);
+}
+.btnGood:hover {
+    background-color: rgb(165, 252, 152);
+}
+.btnGood:focus {
+    background-color: rgb(49, 169, 31);
+}
+.btnNeutral:hover {
+    background-color: rgb(234, 226, 142);
+}
+.btnNeutral:focus {
+    background-color: rgb(235, 218, 34);
+}
+.btnBad:hover {
+    background-color: rgb(245, 139, 139);
+}
+.btnBad:focus {
+    background-color: rgb(219, 34, 34);
+}

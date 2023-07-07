@@ -1,0 +1,8 @@
+.buttonsStatistics {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.buttonsStatistics span {
+    font-weight: 700;
+}
